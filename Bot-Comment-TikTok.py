@@ -12,7 +12,7 @@ try:
     from colorama import Fore
     colorama.init(autoreset=True)
 except:
-    print('[-] pip install requests')
+    print('[-] pip install colorama')
     exit(0)
 Bb = Fore.LIGHTYELLOW_EX
 print(Bb + """
